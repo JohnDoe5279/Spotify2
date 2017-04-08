@@ -3,6 +3,7 @@ package com.bensquared.spotify;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,13 +26,17 @@ public class MainActivity extends AppCompatActivity {
             EditText loginPassword = (EditText)findViewById(R.id.password);
             Button what = (Button)findViewById(R.id.loginButton);
 
+            Typeface oswald = Typeface.createFromAsset(getAssets(), "Oswald-Regular.ttf");
+
+            loginButton.setTypeface(oswald);
+            loginText.setTypeface(oswald);
+            loginPassword.setTypeface(oswald);
 
             final Handler handler = new Handler();
 
-
             //Sets the builder to build alerts to say "Hello John Doe".
             AlertDialog.Builder Builder = new AlertDialog.Builder(this);
-            Builder.setMessage("Hello John Doe.");
+            Builder.setMessage("Logging in John Doe");
 
             //Creates the alert
             final AlertDialog alert = Builder.create();

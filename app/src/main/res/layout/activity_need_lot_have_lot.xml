@@ -9,7 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bensquared.spotify.NeedLotHaveLot">
+    tools:context="com.bensquared.spotify.NeedLotHaveLot"
+    android:layout_margin="0dp">
 
 
     <LinearLayout
@@ -18,7 +19,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
-        android:padding="10dp"
+
         android:gravity="center"
         android:id="@+id/split">
 

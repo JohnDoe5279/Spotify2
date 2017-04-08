@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="123 Sesame Street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sesameStreetMySpot"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/mapcropped"
+        android:id="@+id/mySpotImage"
+        android:cropToPadding="false"
+        android:fitsSystemWindows="false"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="Rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySpotRatte"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySpotTime"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TotalPrice"
+        android:background="@drawable/topborder"
+        android:textSize="25sp"
+        android:layout_weight="0.01" />
+
+</LinearLayout>
