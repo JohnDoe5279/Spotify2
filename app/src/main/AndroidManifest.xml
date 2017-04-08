@@ -14,7 +14,7 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_navigation_drawer"
+            android:label="LoTs"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

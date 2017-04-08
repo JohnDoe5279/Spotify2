@@ -61,6 +61,15 @@
             android:layout_centerVertical="true"
             android:layout_alignStart="@+id/fifteenaday"
             android:layout_marginStart="34dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/searchbar"
+            android:id="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="55dp" />
     </RelativeLayout>
 
     <android.support.design.widget.NavigationView
