@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,4 +13,53 @@
     android:gravity="center_vertical"
     android:orientation="vertical"
     android:background="@drawable/map"
+    >
+    <ImageButton
+android:layout_height="wrap_content"
+app:srcCompat="@drawable/twentyaday"
+android:id="@+id/twentyaday"
+android:scaleType="fitXY"
+android:adjustViewBounds="true"
+android:padding="2dp"
+android:layout_width="25dp"
+android:layout_marginStart="70dp"
+android:layout_alignParentStart="true"
     />
+
+<ImageButton
+android:layout_width="25dp"
+android:layout_height="wrap_content"
+app:srcCompat="@drawable/fourteenanhour"
+android:layout_above="@+id/twentyaday"
+android:layout_toEndOf="@+id/fiveanhour"
+android:layout_marginBottom="67dp"
+android:id="@+id/fourteenanhour"
+android:scaleType="fitXY"
+android:adjustViewBounds="true"
+android:padding="2dp"/>
+
+<ImageButton
+
+android:layout_height="wrap_content"
+app:srcCompat="@drawable/fiveanhour"
+android:id="@+id/fiveanhour"
+android:layout_width="25dp"
+android:scaleType="fitXY"
+android:adjustViewBounds="true"
+android:padding="0dp"
+android:layout_marginStart="69dp"
+android:layout_alignBottom="@+id/twentyaday"
+android:layout_toEndOf="@+id/fifteenaday"
+android:layout_marginBottom="15dp" />
+
+<ImageButton
+android:layout_width="25dp"
+android:layout_height="wrap_content"
+app:srcCompat="@drawable/fifteenaday"
+android:id="@+id/fifteenaday"
+android:scaleType="fitXY"
+android:adjustViewBounds="true"
+android:padding="2dp"
+android:layout_alignTop="@+id/fourteenanhour"
+android:layout_toEndOf="@+id/twentyaday" />
+    </RelativeLayout>

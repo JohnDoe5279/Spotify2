@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
+
             //This finds the login Button, the field to grab the login email, and the field
             //to grab the login password.
             Button loginButton = (Button)findViewById(R.id.loginButton);

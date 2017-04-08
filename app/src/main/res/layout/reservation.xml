@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="123 Sesame Street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/mapcropped"
+        android:id="@+id/imageView2"
+        android:cropToPadding="false"
+        android:fitsSystemWindows="false"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CountDown"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:text="Check-in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CheckinButton"
+            android:layout_marginTop="20dp"
+            android:textSize="21sp"/>
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Cancelbutton"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+</LinearLayout>
