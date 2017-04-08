@@ -39,5 +39,6 @@ android:layout_height="wrap_content"
     android:layout_weight="1"
     android:layout_gravity="center_horizontal"
     android:textSize="20sp"
-    android:id= "@+id/loginButton"/>
+    android:id= "@+id/loginButton"
+    android:background="@drawable/button_borders"/>
     </LinearLayout>

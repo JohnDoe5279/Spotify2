@@ -19,7 +19,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
-
         android:gravity="center"
         android:id="@+id/split">
 
@@ -29,7 +28,9 @@
             android:text="Have a Lot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/haveALot" />
+            android:id="@+id/haveALot"
+            android:background="@drawable/button_bordersgrey"
+            android:textAlignment="center" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,7 +48,9 @@
             android:text="Need a Spot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/needASpot" />
+            android:id="@+id/needASpot"
+            android:background="@drawable/button_borders"
+            android:textAlignment="center" />
     </LinearLayout>
 
 

@@ -27,28 +27,37 @@
         android:scaleType="centerCrop"/>
 
     <TextView
-        android:text="Rate"
+        android:text="Rate                                  $6 hourly"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mySpotRatte"
         android:textSize="25sp"
         android:layout_marginTop="15dp" />
 
-    <TextView
-        android:text="TextView"
+    <Chronometer
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mySpotTime"
         android:textSize="25sp"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:textAlignment="textEnd"
+        android:layout_weight="0.16" />
 
     <TextView
-        android:text="TextView"
+        android:text="Total:                                $6.00"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/TotalPrice"
         android:background="@drawable/topborder"
         android:textSize="25sp"
         android:layout_weight="0.01" />
+
+    <Button
+        android:text="Checkout"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Checkout"
+        android:layout_gravity="center"
+        android:background="@drawable/button_borders"/>
 
 </LinearLayout>

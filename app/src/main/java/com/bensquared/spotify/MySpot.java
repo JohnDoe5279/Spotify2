@@ -1,7 +1,10 @@
 package com.bensquared.spotify;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.Chronometer;
 import android.widget.TextView;
 
 import java.util.concurrent.TimeUnit;
@@ -17,21 +20,23 @@ public class MySpot extends AppCompatActivity {
         setContentView(R.layout.myspot);
 
         TextView rate = (TextView)findViewById(R.id.mySpotRatte);
-       final TextView time = (TextView)findViewById(R.id.mySpotTime);
+       final Chronometer time = (Chronometer)findViewById(R.id.mySpotTime);
         TextView total = (TextView)findViewById(R.id.TotalPrice);
+        TextView sesame = (TextView)findViewById(R.id.sesameStreetMySpot);
+        Button checkout = (Button)findViewById(R.id.Checkout);
 
-        rate.setText("Rate                           $  6 hourly");
 
-        
-//        CountUpTimer timer = new CountUpTimer(1000) {
-//            public void onTick(int second) {
-//                time.setText("Time                           x  "+String.format("%d:%d min",
-//                        TimeUnit.SECONDS.toMinutes(second),
-//                                second));
-//            }
-//        };
-//
-//        timer.start();
+        Typeface oswald = Typeface.createFromAsset(getAssets(), "Oswald-Regular.ttf");
+
+        time.setTypeface(oswald);
+        rate.setTypeface(oswald);
+        total.setTypeface(oswald);
+        sesame.setTypeface(oswald);
+        checkout.setTypeface(oswald);
+
+        time.start();
+
+
 
     }
 }
