@@ -17,12 +17,16 @@ public class NeedLotHaveLot extends AppCompatActivity {
         TextView needASpot = (TextView)findViewById(R.id.needASpot);
         Button haveALot = (Button)findViewById(R.id.haveALot);
 
+
+
+
+
         haveALot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent toMapActivity = new Intent(getBaseContext(), MapsActivity.class);
-                startActivity(toMapActivity);
 
+                startActivity(toMapActivity);
             }
         });
     }
