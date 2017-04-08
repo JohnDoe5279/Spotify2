@@ -29,5 +29,14 @@ public class NeedLotHaveLot extends AppCompatActivity {
                 startActivity(toMapActivity);
             }
         });
+
+        needASpot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toNav = new Intent(getBaseContext(), MapsActivity.class);
+                startActivity(toNav);
+
+            }
+        });
     }
 }

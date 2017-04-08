@@ -13,13 +13,20 @@
     android:gravity="center"
     >
 
-    <ImageView
+   <!-- <ImageView
         android:layout_gravity="center"
         android:layout_width="135dp"
         android:layout_height="125dp"
         android:src="@drawable/logowhite"
 
-        />
+        /> -->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/bullygif"
+        android:layout_width="135dp"
+        android:layout_height="125dp"
+        android:src="@drawable/logogifslow"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>
