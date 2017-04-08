@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "291630099345",
+    "firebase_url": "https://spotify2-b58c0.firebaseio.com",
+    "project_id": "spotify2-b58c0",
+    "storage_bucket": "spotify2-b58c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291630099345:android:979222ad76902b4b",
+        "android_client_info": {
+          "package_name": "com.bensquared.spotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291630099345-pp3aljcjgkj18u4l68pc0fadkpbitfit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bensquared.spotify",
+            "certificate_hash": "6ec7f7ff9f29327704d715460cde8caefb1e4769"
+          }
+        },
+        {
+          "client_id": "291630099345-8cssl15p2c4o9411up3rbi3pk9891b1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4K0aCRCTxlq-Np0eSMJHBs263G6Ny1c4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291630099345-8cssl15p2c4o9411up3rbi3pk9891b1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
