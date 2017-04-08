@@ -11,4 +11,4 @@
     tools:context="com.bensquared.spotify.MainActivity"
     android:gravity="center_vertical"
     android:orientation="vertical"
-    />
+    android:background="@drawable/map" />
