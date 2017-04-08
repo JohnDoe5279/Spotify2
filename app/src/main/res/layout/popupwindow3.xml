@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bf696e">
+
+    <!--<ImageView
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chatbox"
+        android:id="@+id/imageView3" />
+        -->
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spot B4"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_above="@+id/button"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$6 hourly"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <Button
+        android:text="Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmButton"
+        android:layout_below="@+id/editText5"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/needspot"
+        android:id="@+id/imageView5"
+
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button"></ImageView>
+
+</RelativeLayout>

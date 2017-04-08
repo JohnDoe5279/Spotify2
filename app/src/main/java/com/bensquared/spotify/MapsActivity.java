@@ -31,14 +31,14 @@ public class MapsActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -77,7 +77,37 @@ public class MapsActivity extends AppCompatActivity
 //                popupWindow.showAsDropDown(btnOpenPopup, 50, -30);
 //
 //            }});
+
+        ImageButton priceTag1 = (ImageButton)findViewById(R.id.fifteenaday);
+        ImageButton priceTag2 = (ImageButton)findViewById(R.id.fourteenanhour);
+        ImageButton priceTag3 = (ImageButton)findViewById(R.id.fiveanhour);
+
+        priceTag1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toPop = new Intent(getBaseContext(), Pop2.class);
+                startActivity(toPop);
+
+            }
+        });
+        priceTag2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toPop = new Intent(getBaseContext(), Pop2.class);
+                startActivity(toPop);
+
+            }
+        });
+        priceTag3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toPop = new Intent(getBaseContext(), Pop2.class);
+                startActivity(toPop);
+
+            }
+        });
     }
+
 
     @Override
     public void onBackPressed() {
@@ -139,4 +169,8 @@ public class MapsActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+
 }

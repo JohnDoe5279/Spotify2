@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bf696e">
+
+    <!--<ImageView
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chatbox"
+        android:id="@+id/imageView3" />
+        -->
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/needspot"
+        android:id="@+id/imageView5"
+
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imagelot"
+        android:layout_marginTop="22dp"></ImageView>
+
+    <Button
+        android:text="Reserve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:id="@+id/reserveButton"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$6 hourly"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spot B4"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+</LinearLayout>
+
+    <!--<Button
+        android:text="Reserve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:id="@+id/reserveButton"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true" />-->
+</LinearLayout>
